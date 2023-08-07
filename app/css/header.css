@@ -1,0 +1,43 @@
+.cabecalho {
+    /* AJustes tela */
+    padding: 4%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+ 
+    /*Cores*/
+    background-color: #107AB0 ;
+
+
+ }
+ 
+ .cabecalho__cadastro {
+    display: flex;
+    gap: 2rem;
+ }
+ 
+ .cabecalho__cadastro__button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+ }
+
+ .cabecalho__pesquisa {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+ }
+
+ .cabecalho__pesquisa__button {
+   width: 4rem;
+   height: 1.9rem;
+   border-radius: 2rem;
+ }
+
+ .cabecalho__pesquisa__busca {
+   width: 100%;
+   height: 1.5rem;
+   border-radius: 0.2rem;
+
+ }
+ 
