@@ -1,43 +1,68 @@
+
 .cabecalho {
-    /* AJustes tela */
+  /* AJustes tela */
     padding: 4%;
     height: 20%;
     display: flex;
     justify-content: space-between;
  
     /*Cores*/
-    background-color: #107AB0 ;
+    background-color: var(--cor-secundaria);
 
 
  }
+
+ /* cabecalho  */
  
  .cabecalho__cadastro {
     display: flex;
     gap: 2rem;
+    align-items: center;
+    justify-items: center;
  }
- 
+
+ /* cabecalho esquerdo */
  .cabecalho__cadastro__button {
     width: 2rem;
     height: 2rem;
-    border-radius: 50%;
+    background: transparent;
+    border: none;
+ }
+ .cabecalho__cadastro__button > img {
+  width: 100%;
+ }
+ .cabecalho__cadastro__titulo {
+  color: #fff;
+  font-family: var(--font-principal);
+  font-weight: 400;
  }
 
+  /* cabecalho direito */
  .cabecalho__pesquisa {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 2rem;
+   gap: 0.2rem;
+   justify-items: center;
+   color: var(--cor-secundaria);
  }
 
  .cabecalho__pesquisa__button {
    width: 4rem;
-   height: 1.9rem;
-   border-radius: 2rem;
- }
-
+   height: 2.5rem;
+   background: transparent;
+   border: none;
+  }
+  .cabecalho__pesquisa__button > img {
+     width: 50%;
+  }
  .cabecalho__pesquisa__busca {
    width: 100%;
-   height: 1.5rem;
-   border-radius: 0.2rem;
-
+   height: 1.8rem;
+   border-radius: 0.4rem;
+   border: 0.1rem solid var(--cor-secundaria);
  }
+ .cabecalho__pesquisa__busca :placeholder {
+  color: var(--cor-secundaria);
+ }
+
+
  

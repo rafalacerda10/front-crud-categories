@@ -1,4 +1,11 @@
 @import url("/app/css/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100;400&display=swap');
+
+:root {
+   --cor-primaria : #f5f5f5;
+   --cor-secundaria : #107AB0;
+   --font-principal : "Roboto";
+}
 
 * {
    margin: 0;
