@@ -1,0 +1,39 @@
+
+/* Criação tabela */
+.tabela {
+  width: 100%;
+  border: 1px solid var(--cor-secundaria);
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+/* Linhas tabelas */
+.tabela__linha  td{
+    border: 1px solid var(--cor-primaria);
+    padding: 15px;
+    text-align: center;
+    background: var(--cor-tabelas);
+    color: var(--cor-primaria); 
+    font-family: var(--font-principal);
+
+}
+.tabela__linha__numero:hover {
+    color: var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.tabela__linha__botao{
+    background: transparent;
+    border: none;
+    margin-left: 1.5rem;
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.tabela__linha__botao:hover {
+    color: var(--cor-secundaria);
+    cursor: pointer;
+    
+}
+
+

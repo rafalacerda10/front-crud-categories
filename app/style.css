@@ -1,9 +1,12 @@
+@import url("/app/css/footer.css");
+@import url("/app/css/tabela.css");
 @import url("/app/css/header.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100;400&display=swap');
 
 :root {
    --cor-primaria : #f5f5f5;
    --cor-secundaria : #107AB0;
+   --cor-tabelas : rgba(16, 122, 176,0.6);
    --font-principal : "Roboto";
 }
 

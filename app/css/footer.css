@@ -1,0 +1,10 @@
+/* footer / rodape */
+.rodape {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        color: var(--cor-primaria);
+        background: #000;
+        padding: 4px 0;
+    }
