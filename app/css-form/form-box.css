@@ -1,0 +1,34 @@
+
+/* Criação caixa menu inicial no centro */
+.box {
+    margin: 7% 35%;
+    width: 400px; height: 400px;
+    background: #f6f6f6;
+    border: 2px solid #000;
+    color: #000;
+}
+/*border radius*/
+.box {
+-webkit-border-radius: 30px;
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius: 30px;
+-moz-border-radius-topleft: 5px;
+border-radius: 30px;
+border-top-left-radius: 5px;
+border-color: #020101a2 ;
+}
+/* Grid*/
+.box {
+    display: grid;
+    column-gap: 1px;
+    grid-template-rows: 1fr 0fr 4fr;
+
+}
+
+
+.box-title {
+    font-size: 2.5em;
+    font-family: var(--font-titulo);
+    font-weight: 200;
+  
+}
