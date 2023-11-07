@@ -1,0 +1,27 @@
+/* Box form */
+.box-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+
+/*Name*/
+
+#nome {
+    width: 98%; height: 100px;
+}
+
+/*Number*/
+#telefone {
+    width: 98%; height: 100px;
+}
+
+/*Enviar*/
+#send{
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid red;
+   
+}
+
