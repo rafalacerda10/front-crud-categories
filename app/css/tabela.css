@@ -25,10 +25,14 @@
     background: transparent;
     border: none;
     margin-left: 1.5rem;
-    color: var(--cor-primaria);
+ 
     font-family: var(--font-principal);
     font-weight: 700;
     font-size: 1rem;
+}
+.tabela__linha__botao > a {
+    text-decoration: none;
+    color: #000;
 }
 .tabela__linha__botao:hover {
     color: var(--cor-secundaria);

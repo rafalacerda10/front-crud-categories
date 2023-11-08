@@ -2,7 +2,7 @@
 /* Criação caixa menu inicial no centro */
 .box {
     margin: 7% 35%;
-    width: 400px; height: 400px;
+    width: 300px; height: 300px;
     background: #f6f6f6;
     border: 2px solid #000;
     color: #000;
@@ -26,9 +26,3 @@ border-color: #020101a2 ;
 }
 
 
-.box-title {
-    font-size: 2.5em;
-    font-family: var(--font-titulo);
-    font-weight: 200;
-  
-}
