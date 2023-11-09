@@ -1,3 +1,7 @@
+.box {
+    margin-top: 10%;
+}
+
 /* Box form */
 .box-form{
     display: flex;
@@ -29,7 +33,7 @@
     height: 2.5em;
    
 }
-
+/*link send */
 #send a {
     text-decoration: none;
     color: #000;

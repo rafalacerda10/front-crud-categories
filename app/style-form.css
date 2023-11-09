@@ -3,6 +3,7 @@
 @import url(../app/css-form/box-title.css);
 @import url(../app/css/footer.css);
 @import url(../app/css-form/box-form.css);
+
 /*Importação fonts*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300&display=swap');
 
@@ -18,9 +19,9 @@
 }
 /*Body*/
 body {
-    background-image: linear-gradient(275deg, #f6f6f6 0, #f6f7f6 10%, #f6ffff 20%, #e3ffff 30%, #cdfcf8 40%, #b5f2f2 50%, #9ce8ee 60%, #84deeb 70%, #6dd5eb 80%, #57cdeb 90%,  #107AB0 100%);
-    color: white;
-
-  
+    background-color: #107AB0;
+    color: #fff;
+    
 }
 /* #107AB0;*/
+
