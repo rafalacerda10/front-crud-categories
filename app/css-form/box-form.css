@@ -1,5 +1,6 @@
 .box {
     margin-top: 10%;
+    border: rgba(16, 122, 176,0.6) 9px solid;
 }
 
 /* Box form */
@@ -21,7 +22,7 @@
 
 /*Number*/
 #telefone {
-    width: 99%; height: 60px;
+    width: 98%; height: 60px;
     font-size: 0.8rem;
     color: black;
     font-family: var(--font-titulo);
@@ -29,7 +30,7 @@
 
 /*Enviar*/
 #send{
-    width: 100%;
+    width: 99%;
     height: 2.5em;
    
 }
